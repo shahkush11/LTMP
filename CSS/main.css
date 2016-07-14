@@ -1,0 +1,64 @@
+body{
+    background-image: url(../Assets/BG.jpg);
+}
+@font-face {
+  font-family: 'Great Vibes';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../Assets/fonts/Great-Vibes-regular/Great-Vibes-regular.eot');
+  src: url('../Assets/fonts/Great-Vibes-regular/Great-Vibes-regular.eot?#iefix') format('embedded-opentype'),
+       local('Great Vibes'),
+       local('Great-Vibes-regular'),
+       url('../Assets/fonts/Great-Vibes-regular/Great-Vibes-regular.woff2') format('woff2'),
+       url('../Assets/fonts/Great-Vibes-regular/Great-Vibes-regular.woff') format('woff'),
+       url('../Assets/fonts/Great-Vibes-regular/Great-Vibes-regular.ttf') format('truetype'),
+       url('../Assets/fonts/Great-Vibes-regular/Great-Vibes-regular.svg#GreatVibes') format('svg');
+}
+@font-face {
+  font-family: 'Courgette';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../Assets/fonts/Courgette-regular/Courgette-regular.eot');
+  src: url('../Assets/fonts/Courgette-regular/Courgette-regular.eot?#iefix') format('embedded-opentype'),
+       local('Courgette Regular'),
+       local('Courgette-regular'),
+       url('../Assets/fonts/Courgette-regular/Courgette-regular.woff2') format('woff2'),
+       url('../Assets/fonts/Courgette-regular/Courgette-regular.woff') format('woff'),
+       url('../Assets/fonts/Courgette-regular/Courgette-regular.ttf') format('truetype'),
+       url('../Assets/fonts/Courgette-regular/Courgette-regular.svg#Courgette') format('svg');
+}
+
+
+div.transparent{
+    background-color: #ffffff;
+    opacity: 0.78;
+    filter: alpha(opacity=60);
+    padding: 10px;
+    padding-top: 0px;
+}
+h1{
+    font-family: 'Great Vibes'; 
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding: 1%
+    
+}
+h2{
+    font-family: 'Great Vibes'; 
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1%;
+}
+p{
+    font-family: 'Courgette'; 
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1%;
+    word-wrap: break-word;
+}
+.transparent img{
+    float:left;
+    padding:5px;
+}
